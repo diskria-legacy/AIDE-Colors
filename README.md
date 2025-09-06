@@ -1,21 +1,34 @@
 # 🎨 AIDE-Colors (2017)
 
-Customizable theme overlay for AIDE, designed for CyanogenMod/LineageOS users.  
-Originally created in 2017 using AIDE on-device. This project allows developers to recolor the entire interface of the AIDE editor using a structured XML file.
+A customizable theme overlay for the AIDE Android IDE, designed for use with CyanogenMod / LineageOS theme engine.  
+This package modifies the entire AIDE interface: background, syntax colors, line numbers, UI elements — everything.
 
-## 💡 Screenshots
+## ✨ Features
+
+- System-wide recoloring of AIDE via `colors.xml` overlay  
+- Editable theme file with inline comments for all color fields  
+- Dark syntax highlighting with custom styling for keywords, strings, operators, etc.  
+- Designed for experimentation: tweak and build your own AIDE color scheme  
+
+## 📦 About this project
+
+This theme was originally built using [AIDE](https://www.android-ide.com/) in 2017 — directly on-device.  
+It was created as a tool for customization and experimentation, not a final product.  
+The original repository is lost, but the `.apk` and XML config have been preserved and archived here.
+
+## 📸 Screenshots
 
 <p align="center">
-  <img width="281" height="500" alt="image" src="https://github.com/user-attachments/assets/007e8333-3ab7-4237-ac4e-1277a0028c7a" />
-  <img width="281" height="500" alt="image" src="https://github.com/user-attachments/assets/bf7b0a65-2f65-45d1-8204-6daa2c626b4d" />
+  <img width="281" height="500" alt="screenshot 1" src="https://github.com/user-attachments/assets/007e8333-3ab7-4237-ac4e-1277a0028c7a" />
+  <img width="281" height="500" alt="screenshot 2" src="https://github.com/user-attachments/assets/bf7b0a65-2f65-45d1-8204-6daa2c626b4d" />
 </p>
 
-## 💡 About
+## 📥 Download
 
-This theme was not meant to be a final product — it was a tool for other users to experiment with colors, customize syntax highlighting and UI, and learn how theme overlays work in CM/Lineage.
+You can download the APK from the Releases.
 
-## ✍️ How it works
+## 🛑 License
 
-- The core of the theme is a `colors.xml` file with all editable colors used in the AIDE interface.
-- Each color is documented with comments in Russian to explain its usage.
-- The `.apk` file is a standard CyanogenMod-style theme package and is not a launchable app.
+This project is published for archival and educational purposes.  
+There is no source code or build instructions — only the theme `.apk` and configuration XML.  
+Use at your own discretion.
